@@ -7,33 +7,35 @@
         <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
     </head>
     <body>
-        <h1>
-            <title>
-                    Identifting Keywords of a statement
-            </title>
-            <p>
+        <hi id="title_text">
+            Identifting Keywords of a statement
+        </h1>
+        <h2>
+            <p id="open_para">
                 This program, places statements or questions into categories,
                 by using keywords that relate to the statement/question. 
                 Such as placing "How much calories should I have daily?" the 
                 keyword would be "calories" which is related to diet. 
             </p>
-        </h1>
+        </h2>
 
         Input Statement/Queston:
         <input type="text" name="Input Statement/Queston" id="input_text">     
         <button onclick="set_input_string()">Submit</button>
         
-        <p>
-            <!--Strings-->
-            Input string: <p id="input_string"></p>
-         </p>
+        <p id="output_text">
+            <!--OUTPUTS-->
+            <p>
+                <!--Strings-->
+                Input string: <p id="input_string"></p>
+            </p>
 
             <p>
-            Listed words from the input: <p id="word_array"></p> 
+                Listed words from the input: <p id="word_array"></p> 
+            </p>
 
+            <p>Numberr of Words: <p id="num_of_words"></p> </p>
         </p>
-
-        <p>Numebr of Words: <p id="num_of_words"></p> </p>
 
         <!--JAVASCRIPT CODE BEGINS-->
         <script src="keyword.js">
