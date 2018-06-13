@@ -2,17 +2,17 @@ body {
     background-color: lightcyan;
 }
 
-h1, title {
+#title_text {
     font-size:36px;
     color: black;
 }
 
-h1, p {
+#open_para{
     font-size:28;
     color: black;
 }
 
-input[type="text"] 
+#input_text
 {
     font-size:24;
 }
