@@ -21,7 +21,13 @@ function set_input_string() {
     [
         "How much calories should I have daily?",
         "What is diabetes?",
-        "Why is it important to sleep?",
+        "Why is it important to sleep?"
+    ];
+    
+    keywords = [
+        "Calories",
+        "Diabetes",
+        "Sleep"
     ];
     
 }
