@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <!--Title Code-->
+    <head>
+        <title>Identifting Keywords of a statement</title>
+        <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+    </head>
+    <body>
+        <h1>
+            <title>
+                    Identifting Keywords of a statement
+            </title>
+            <p>
+                This program, places statements or questions into categories,
+                by using keywords that relate to the statement/question. 
+                Such as placing "How much calories should I have daily?" the 
+                keyword would be "calories" which is related to diet. 
+            </p>
+        </h1>
+
+        Input Statement/Queston:
+        <input type="text" name="Input Statement/Queston" id="input_text">     
+        <button onclick="set_input_string()">Submit</button>
+        
+        <p>
+            <!--Strings-->
+            Input string: <p id="input_string"></p>
+         </p>
+
+            <p>
+            Listed words from the input: <p id="word_array"></p> 
+
+        </p>
+
+        <p>Numebr of Words: <p id="num_of_words"></p> </p>
+
+        <script src="keyword.js">
+        </script>
+    </body>
+</html> 

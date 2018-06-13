@@ -1,0 +1,22 @@
+body {
+    background-color: lightcyan;
+}
+
+h1, title {
+    font-size:36px;
+    color: black;
+}
+
+h1, p {
+    font-size:28;
+    color: black;
+}
+
+input[type="text"] 
+{
+    font-size:24;
+}
+
+p {
+    font-size:24;
+}
